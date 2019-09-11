@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META SECTION -->
+    <title>Calling Management</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- END META SECTION -->
+
+    <!-- CSS INCLUDE -->
+    <link rel="stylesheet" type="text/css" id="theme" href="../assets/css/theme-default.css"/>
+    <link rel="stylesheet" href="../assets/css/flaticon/flaticon.css">
+    <!-- EOF CSS INCLUDE -->
+</head>
+<body>
+<!-- START PAGE CONTAINER -->
+<div class="page-container">
+
+    <!-- START PAGE SIDEBAR -->
+    <div class="page-sidebar">
+        <!-- START X-NAVIGATION -->
+        <ul class="x-navigation">
+            <li class="xn-logo">
+                <a href="index.html">Calling Management</a>
+                <a href="#" class="x-navigation-control"></a>
+            </li>
+            <li class="xn-profile">
+                <a href="#" class="profile-mini">
+                    <img src="../assets/images/users/no-image.jpg" alt="John Doe"/>
+                </a>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="../assets/images/users/no-image.jpg" alt="John Doe"/>
+                    </div>
+                    <div class="profile-data">
+                        <div class="profile-data-name">Welcome Super Admin</div>
+
+                    </div>
+
+                </div>
+            </li>
+            <!-- <li class="xn-title">Navigation</li>-->
+            <li class="">
+                <a href="index.html"><span class="fa fa-dashboard"></span> <span class="xn-text"> Dashboard</span></a>
+            </li>
+
+            <li class="xn-openable">
+                <a href="#"><span class="fa fa-map-marker"></span> <span class="xn-text">Branch Management</span></a>
+                <ul>
+                    <li><a href="add_branch.html">Add New Branch</a></li>
+                    <li><a href="show_branch.html"> Show Branch</a></li>
+                </ul>
+            </li>
+            <li class="xn-openable">
+                <a href="#"><span class="fa fa-user"></span> <span class="xn-text">T.L. Management</span></a>
+                <ul>
+                    <li><a href="add_team_leader.html">Add Team Leader</a></li>
+                    <li><a href="show_team_leader.html"> Show Team Leader</a></li>
+                </ul>
+            </li>
+            <li class="xn-openable">
+                <a href="#"><span class="fa fa-users"></span> <span class="xn-text">Employee Management</span></a>
+                <ul>
+                    <li><a href="add_emp.html">Add Employee</a></li>
+                    <li><a href="show_emp.html"> Show Employee</a></li>
+                </ul>
+            </li>
+            <li class="xn-openable active">
+                <a href="#"><span class="fa fa-phone"></span> <span class="xn-text">Calling Management</span></a>
+                <ul>
+                    <li><a href="add_call.html">Add Call</a></li>
+                    <li><a href="show_call.html">Show Call</a></li>
+                    <li><a href="completed-call.html"> Completed</a></li>
+                    <li><a href="not-interested-call.html"> Not Interested</a></li>
+                    <li><a href="process-call.html"> Process</a></li>
+                    <li><a href="pending-call.html"> Pending</a></li>
+                </ul>
+            </li>
+            <li class="xn-openable">
+                <a href="#"><span class="fa fa-files-o"></span> <span class="xn-text"> Customer  Management</span></a>
+                <ul>
+                    <li><a href="add_cust.html"> Add New Customer </a></li>
+                    <li><a href="show_cust.html"> Show Customer </a></li>
+                </ul>
+            </li>
+
+            <li class="xn-openable">
+                <a href=""><span class="fa fa-cogs"></span> <span class="xn-text">System Setting</span></a>
+                <ul>
+                    <li><a href="manage-profile.html"> Manage Profile </a></li>
+                    <li><a href="manage-label.html"> Manage Label</a></li>
+                </ul>
+            </li>
+
+            <li class="">
+                <a href="reminder.html"><span class="fa fa-calendar"></span> <span class="xn-text"> Reminder</span></a>
+            </li>
+
+            <li class="">
+                <a href="bulk-upload.html"><span class="fa fa-cloud-upload"></span> <span class="xn-text"> Bulk Upload</span></a>
+            </li>
+            <li class="">
+                <a href="wallet.html"><span class="fa fa-inr"></span> <span class="xn-text"> Wallet</span></a>
+            </li>
+            <li class="">
+                <a href="ticketing.html"><span class="fa fa-ticket"></span> <span class="xn-text"> Ticketing</span></a>
+            </li>
+            <li class="">
+                <a href="web_from_data.html"><span class="fa fa-globe"></span> <span class="xn-text"> Web Form Data</span></a>
+            </li>
+            <li class="">
+                <a href="upgrade_now.html"><span class="fa fa-arrow-circle-o-up"></span> <span class="xn-text"> Upgrade</span></a>
+            </li>
+            <li class="xn-title">Notification</li>
+
+            <li class="xn-openable">
+                <a href="#"><span class="fa fa-bell"></span> <span class="xn-text">Notification</span></a>
+                <ul>
+                    <li><a href="notification1.html">Notification1</a></li>
+                    <li><a href="notification2.html" >Notification2</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- END X-NAVIGATION -->
+    </div>
+    <!-- END PAGE SIDEBAR -->
+
+    <!-- PAGE CONTENT -->
+    <div class="page-content">
+
+        <!-- START X-NAVIGATION VERTICAL -->
+        <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+            <!-- TOGGLE NAVIGATION -->
+            <li class="xn-icon-button">
+                <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+            </li>
+            <!-- END TOGGLE NAVIGATION -->
+            <!-- SEARCH -->
+            <li class="xn-search">
+                <form role="form">
+                    <input type="text" name="search" placeholder="Search..."/>
+                </form>
+            </li>
+            <!-- END SEARCH -->
+            <!-- POWER OFF -->
+            <li class="xn-icon-button pull-right last">
+                <a href="#"><span class="fa fa-power-off"></span></a>
+                <ul class="xn-drop-left animated zoomIn">
+                    <li><a href="lock_screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
+                    <li><a href="reset_pass.html"><span class="fa fa-key"></span> Reset Password</a></li>
+                    <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
+
+                </ul>
+            </li>
+
+            <li class="xn-icon-button pull-right">
+                <a href="#"><span class="fa fa-comments"></span></a>
+                <div class="informer informer-danger">7</div>
+                <div class="panel panel-primary animated zoomIn xn-drop-left xn-panel-dragging">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="fa fa-comments"></span> Today's Reminder</h3>
+                        <div class="pull-right">
+                            <span class="label label-danger">7 new</span>
+                        </div>
+                    </div>
+                    <div class="panel-body list-group list-group-contacts scroll" style="height: 200px;">
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-online"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="John Doe"/>
+                            <span class="contacts-title">Pradeep Kushwaha</span>
+                            <p>Praesent placerat tellus id augue condimentum</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-away"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Dmitry Ivaniuk"/>
+                            <span class="contacts-title">Mr Rajkumar</span>
+                            <p>Donec risus sapien, sagittis et magna quis</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-away"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Nadia Ali"/>
+                            <span class="contacts-title">Anuj Maorya</span>
+                            <p>Mauris vel eros ut nunc rhoncus cursus sed</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-offline"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Darth Vader"/>
+                            <span class="contacts-title">Anup srivastva</span>
+                            <p>I want my money back!</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-offline"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Darth Vader"/>
+                            <span class="contacts-title">Vinay</span>
+                            <p>I want my money back!</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-offline"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Darth Vader"/>
+                            <span class="contacts-title">Kashyap</span>
+                            <p>I want my money back!</p>
+                        </a>
+
+                        <a href="#" class="list-group-item">
+                            <div class="list-group-status status-offline"></div>
+                            <img src="../assets/images/users/no-image.jpg" class="pull-left" alt="Darth Vader"/>
+                            <span class="contacts-title">Deepak</span>
+                            <p>I want my money back!</p>
+                        </a>
+                    </div>
+                    <div class="panel-footer text-center">
+                        <a href="today_reminder.html">Show all messages</a>
+                    </div>
+                </div>
+            </li>
+            <li class="xn-icon-button pull-right wallet-icon">
+                <a href="wallet.html"><span class="flaticon-wallet"></span></a>
+            </li>
+
+
+            <li class="xn-icon-button pull-right last">
+                <a href="profile.html"><span class="fa fa-user"></span></a>
+            </li>
+
+        </ul>
+        <!-- END X-NAVIGATION VERTICAL -->
+
+        <!-- START BREADCRUMB -->
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Calling Management</a></li>
+
+        </ul>
+        <!-- END BREADCRUMB -->
+
+        <!-- PAGE TITLE -->
+        <div class="page-title">
+            <h2><span class="fa fa-arrow-circle-o-left"></span> Process Call </h2>
+            <div class="form-group pull-right">
+                <ul class="panel-controls">
+                    <li><a href="#" class="control-primary"  data-toggle="tooltip" title="Refresh"><span class="fa fa-refresh"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- END PAGE TITLE -->
+
+        <!-- PAGE CONTENT WRAPPER -->
+        <div class="page-content-wrap">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-filter"></i> Filter</h3>
+                            <ul class="panel-controls">
+                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-order-id">Contact No.</label>
+                                    <input type="text" name="filter_admin" value="" placeholder="Contact No." id="input-admin" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-order-id">Branch</label>
+                                    <input type="text" name="filter_branch" value="" placeholder="Branch" id="input-branch" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-customer">City</label>
+                                    <input type="text" name="filter_city" value="" placeholder="City" id="input-customer" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-total">Team Leader</label>
+                                    <input type="text" name="filter_name" value="" placeholder="Team Leader" id="input-total" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-date-added">Date From</label>
+                                    <div class="input-group date">
+                                        <input type="text" name="filter_date_added" value="" placeholder="Date From" data-date-format="YYYY-MM-DD" id="input-date-added" class="form-control" />
+                                        <span class="input-group-btn">
+                                              <button type="button" class="btn btn-default btn-cal"><i class="fa fa-calendar"></i></button>
+                                              </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="control-label" for="input-date-modified">Date To</label>
+                                    <div class="input-group date">
+                                        <input type="text" name="filter_date_modified" value="" placeholder="Date To" data-date-format="YYYY-MM-DD" id="input-date-modified" class="form-control" />
+                                        <span class="input-group-btn">
+                                              <button type="button" class="btn btn-default btn-cal"><i class="fa fa-calendar"></i></button>
+                                           </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="form-group text-right">
+                                <button type="button" id="button-filter" class="btn btn-primary"><i class="fa fa-filter"></i> Filter</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START DATATABLE EXPORT -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-list"></i> Process Call List</h3>
+
+                            <div class="btn-group pull-right">
+                                <a href="add_call.html"><button class="btn btn-success dropdown-toggle btn-add-branch"><i class="fa fa-plus"></i> Add Call </button></a>
+
+                                <a href="#" onClick ="$('#customers2').tableExport({type:'excel',escape:'false'});"><button class="btn btn-md btn-info"><i class="fa fa-file-excel-o"></i>  Excel</button></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table id="customers2" class="table datatable table-striped ">
+                                    <thead>
+                                    <tr class="">
+                                        <td>
+                                            <label class="check mail-checkall">
+                                                <input type="checkbox" class="icheckbox"/>
+                                            </label>
+                                        </td>
+                                        <th>Sr. No.</th>
+                                        <th>Cust. Name</th>
+                                        <th>Contact No.</th>
+                                        <th>Telephone No.</th>
+                                        <th>Email</th>
+                                        <th>City</th>
+                                        <th>Date</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <label class="check mail-checkall">
+                                                <input type="checkbox" class="icheckbox"/>
+                                            </label>
+                                        </td>
+                                        <td>1</td>
+                                        <td>Pradeep</td>
+                                        <td>9876543210</td>
+                                        <td>022-564897</td>
+                                        <td>demo@gmail.com</td>
+                                        <td>Malad</td>
+                                        <td>10-10-2018</td>
+                                        <td>
+                                            <a href="call-details.html"><button class="btn btn-info btn-condensed"><i class="fa fa-edit"></i></button></a>
+                                            <a href=""> <button class="btn btn-danger btn-condensed"><i class="fa fa-trash-o"></i></button></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label class="check mail-checkall">
+                                                <input type="checkbox" class="icheckbox"/>
+                                            </label>
+                                        </td>
+                                        <td>2</td>
+                                        <td>Pradeep</td>
+                                        <td>9876543210</td>
+                                        <td>022-56489744</td>
+                                        <td>demo@gmail.com</td>
+                                        <td>Malad</td>
+                                        <td>10-10-2018</td>
+                                        <td>
+                                            <a href="call-details.html"><button class="btn btn-info btn-condensed"><i class="fa fa-edit"></i></button></a>
+                                            <a href=""> <button class="btn btn-danger btn-condensed"><i class="fa fa-trash-o"></i></button></a>
+                                        </td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END DATATABLE EXPORT -->
+                </div>
+            </div>
+
+        </div>
+        <!-- END PAGE CONTENT WRAPPER -->
+    </div>
+    <!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTAINER -->
+
+<!-- MESSAGE BOX-->
+<div class="message-box animated fadeIn" data-sound="alert" id="mb-remove-row">
+    <div class="mb-container">
+        <div class="mb-middle">
+            <div class="mb-title"><span class="fa fa-times"></span> Remove <strong>Data</strong> ?</div>
+            <div class="mb-content">
+                <p>Are you sure you want to remove this row?</p>
+                <p>Press Yes if you sure.</p>
+            </div>
+            <div class="mb-footer">
+                <div class="pull-right">
+                    <button class="btn btn-success btn-lg mb-control-yes">Yes</button>
+                    <button class="btn btn-default btn-lg mb-control-close">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MESSAGE BOX-->
+
+<!-- MESSAGE BOX-->
+<div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+    <div class="mb-container">
+        <div class="mb-middle">
+            <div class="mb-title"><span class="fa fa-sign-out"></span> Log <strong>Out</strong> ?</div>
+            <div class="mb-content">
+                <p>Are you sure you want to log out?</p>
+                <p>Press No if youwant to continue work. Press Yes to logout current user.</p>
+            </div>
+            <div class="mb-footer">
+                <div class="pull-right">
+                    <a href="index.html" class="btn btn-success btn-lg">Yes</a>
+                    <button class="btn btn-default btn-lg mb-control-close">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MESSAGE BOX-->
+
+
+<!-- START SCRIPTS -->
+<!-- START SCRIPTS -->
+<!-- START PLUGINS -->
+<script type="text/javascript" src="../assets/js/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/js/plugins/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../assets/js/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- END PLUGINS -->
+
+<!-- START THIS PAGE PLUGINS-->
+<script type='text/javascript' src='../assets/js/plugins/icheck/icheck.min.js'></script>
+<script type="text/javascript" src="../assets/js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+
+<script type="text/javascript" src="../assets/js/plugins/datatables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../assets/js/plugins/tableexport/tableExport.js"></script>
+<script type="text/javascript" src="../assets/js/plugins/tableexport/jquery.base64.js"></script>
+
+<!-- END THIS PAGE PLUGINS-->
+<script type="text/javascript" src="../assets/js/plugins/bootstrap/bootstrap-datepicker.js"></script>
+<!-- START TEMPLATE -->
+<!--<script type="text/javascript" src="assets/js/settings.js"></script>-->
+
+<script type="text/javascript" src="../assets/js/plugins.js"></script>
+<script type="text/javascript" src="../assets/js/actions.js"></script>
+<!-- END TEMPLATE -->
+<!-- END SCRIPTS -->
+<script>
+    $('input[name="filter_date_added"],input[name="filter_date_modified"]').datepicker({
+        'format':'dd-mm-yyyy',
+        'autoclose':true,
+        //'startDate':'21-02-2019'
+    });
+</script>
+<!-- END SCRIPTS -->
+</body>
+
+</html>

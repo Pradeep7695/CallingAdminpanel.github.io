@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META SECTION -->
+    <title>Calling Management</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- END META SECTION -->
+    <link rel="stylesheet" type="text/css" href="assets/loading-page/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/loading-page/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/theme-default.css">
+
+    <!-- EOF CSS INCLUDE -->
+</head>
+<body class="account-setup">
+<!-- ******HEADER****** -->
+
+<!-- ******Account setup Section****** -->
+<section class="opt-section access-section section">
+    <div class="container">
+        <div class="row">
+            <div class="form-box col-md-offset-1 col-sm-offset-0 xs-offset-0 col-xs-12 col-md-10">
+                <div class="form-box-inner">
+                    <div class="logo">
+                        <a href="home.html"><span class="logo-icon"><img src="assets/loading-page/img/itarsia-logo.png" width="275px" class="img-responsive center"></span></a>
+                    </div><!--//logo-->
+                    <h2 class="title-otp text-center">Enter Your OTP Number Received on Your Mobile</h2>
+                    <div class="row">
+                        <div class="form-container col-xs-12 col-md-12">
+                            <div class="alert alert-infos">
+                                <form id="formAccountVerification">
+                                   <!-- <input type="hidden" name="_token" value="krCClAleP7tnUvdN61pPenrspWqi8tpxJDIfzI8m"> -->
+                                    <div class="form-group row">
+                                    <label for="input-otp" class="form-label col-md-4 col-form-label text-md-right" style="text-align: right;">Enter OTP</label>
+                                        <div class="col-md-6">
+                                           <div class="input-group">
+                                               <input id="input-otp" type="text" class="form-control" name="otp" value="" placeholder="Enter OTP here">
+                                            <span class="input-group-btn">
+                     						<button type="submit" class="btn btn-primary btn-submit" onclick="window.location.href='index.html';" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Please wait..." style="padding-top:3px; height:36px;">
+                                        	Submit
+                                        </button>
+                     					</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                    <div class="form-group row mb-0">
+                                        <div class="col-md-6 col-md-offset-1 offset-md-4">
+                                            <a href="" class="pull-right resend-otp" style="color: #ff3c20; font-weight: bold;">Resend OTP again?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p>An email has been sent to you with a link to verify your account. Please check your email address to verify this account. If you have not received the email after few minutes please check your spam folder.</p>
+                            </div>
+
+                            <div class="btn-home">
+                                <button class="btn btn-success btn-back-home" onclick="window.location.href='home.html';">Go To Home Page</button>
+                            </div>
+
+                        </div><!--//form-container-->
+                        <div class="social-btns col-md-offset-1 col-sm-offset-0 col-sm-offset-0 col-xs-12 col-md-5 hidden">
+                            <div class="divider"><span>Or</span></div>
+                            <ul class="list-unstyled social-login">
+                                <li><button class="twitter-btn btn" type="button"><i class="fa fa-twitter"></i>Log in with Twitter</button></li>
+                                <li><button class="facebook-btn btn" type="button"><i class="fa fa-facebook"></i>Log in with Facebook</button></li>
+                                <li><button class="github-btn btn" type="button"><i class="fa fa-github-alt"></i>Log in with Github</button></li>
+                                <li><button class="google-btn btn" type="button"><i class="fa fa-google-plus"></i>Log in with Google</button></li>
+                            </ul>
+                        </div><!--//social-btns-->
+                    </div><!--//row-->
+                </div><!--//form-box-inner-->
+            </div><!--//form-box-->
+        </div><!--//row-->
+    </div><!--//container-->
+</section><!--//contact-section-->
+
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="otp-footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="block-coppyright">
+                        <small class="copyright">© 2019 | Calling Management All Rights & Reserved. Powered By <a href="http://itarsia.com/" target="_blank">Itarsia India</a></small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 ">
+                    <div class="right-part">
+                        <div class="social">
+                            <a href="#" class="tip-top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Flickr"><i class="fa fa-flickr"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Github"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer><!--//footer-->
+
+
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/loading-page/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/loading-page/js/bootstrap.min.js"></script>
+
+<script>
+    $(function(){
+        $('.btn-submit').click(function(event){
+            event.preventDefault();
+            window.location.href='index.html';
+        });
+    });
+</script>
+
+<!-- ----------------------javascript ------------------ -->
+
+
+</body>
+</html>

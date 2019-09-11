@@ -1,0 +1,325 @@
+.call-submit
+{
+    font-size: 14px;
+    padding: 8px 60px;
+    line-height: 24px;
+    font-weight: 600;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    margin-top: 25px;
+}
+
+.chat-details
+{
+    margin-left: 0px;
+    margin-right: 50px !important;
+}
+
+.post-chat-btm
+{
+    margin-bottom: 80px;
+}
+
+/*.reminder
+{
+    background: #f0f4f9;
+    padding: 12px 13px 12px 10px;
+}*/
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c6,.c7,.c8,.c9
+{
+    margin-bottom: 6px;
+}
+
+.panel .panel-body {
+    padding: 0px !important;
+    position: relative;
+}
+
+.content-remind
+{
+    margin-top: -10px;
+}
+.page-title h2 span
+{
+    font-size: 18px;
+}
+
+.extno
+{
+    margin-left: -22px;
+}
+
+.extno > .form-control
+{
+    width: 121%;
+}
+#sttem-conf > .col-md-6
+{
+    margin-bottom: 15px;
+}
+
+.all-cal a
+{
+    color: #337ab7;
+    font-weight: 600;
+}
+.all-cal a:hover
+{
+    color: #333;
+    text-decoration: none;
+}
+
+/*.c1,.c2,.c3,.c4,.c5,.c6,.c6,.c7,.c8,.c9
+{
+    background: #f8fafc;
+    padding: 0px 3px 0px 3px;
+}*/
+
+.text-center {
+    text-align: center;
+    margin-top: 6px;
+
+}
+
+.call-status .statusc-p
+{
+    padding-top: 6px;
+    padding-left: 55px;
+}
+.c6
+{
+    margin-bottom: 25px;
+}
+
+.call-status .badge
+{
+    line-height: 23px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2 !important;
+}
+
+/* --------------wallet page css  -------------------- */
+.bigContainer-profile {
+    border: 1px solid #DEEAEE;
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 6px 6px 5px 10px;
+    margin-bottom: 15px;
+}
+
+.wal-amo-bal {
+    border-right: 1px solid #e1e1e1;
+}
+.add-paytm-cash .walet-amt {
+    margin-left: -15px;
+    list-style: none;
+}
+
+.btn-ad-money
+{
+    margin-top: 10px;
+}
+
+.yourWallet span {
+    display: block;
+    font-weight: 600;
+}
+.yourWallet .walletbal {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 8px;
+
+}
+.flaticon-wallet::before {
+    content: "\f100";
+    font-size: 35px !important;
+
+}
+
+.md-default-theme
+{
+    margin-top: 13px;
+}
+
+.add-paytm-cash li:first-child i {
+
+    float: left !important;
+    margin-right: 10px;
+    margin-top: -4px;
+    color: #0cb9f1;
+}
+
+.payment-title
+{
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+}
+
+.sort-educ ul li
+{
+    list-style: none;
+    line-height: 25px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 1px 0px #ddd;
+    box-sizing: border-box;
+    height: 0px;
+    left: 0%;
+    margin: 20px 0 0 0px;
+    top: 0%;
+    width: 290px;
+}
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #ccc;
+    color: #555;
+    box-sizing: border-box;
+    font-size: 13px;
+    height: 25px;
+    left: 50%;
+    margin: -25px 0 0 -100px;
+    padding: 0px 0px;
+    position: relative;
+    top: 50%;
+    width: 200px;
+}
+.input:focus {
+    outline: none;
+}
+input::-webkit-input-placeholder {
+    color: #aaa;
+}
+input:focus::-webkit-input-placeholder {
+    color: dodgerblue;
+}
+.input:focus + .underline {
+    transform: scale(1);
+}
+.underline {
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 2px;
+    left: 54px;
+    margin-top: -4px;
+    position: absolute;
+    top: 45px;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    width: 202px;
+}
+
+/* -----------------referal link ------------------- */
+._ref-link {
+    background: #F9FAFC;
+    padding: 4px 10px;
+}
+._ref-link label
+{
+    padding-top: 8px;
+}
+
+._ref-link #copy-link , ._ref-link #share-link
+{
+    height: 36px;
+    margin-right: 2px;
+}
+.no-user {
+    margin-top: 45px;
+}
+.no-user .widget.widget-padding-sm, .widget.widget-item-icon {
+    padding: 25px 0px 5px;
+    cursor: pointer;
+}
+.no-user .widget {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    text-decoration: none;
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    min-height: 120px;
+    position: relative;
+    background: none;
+    border: 1px solid #e1e1e1;
+}
+
+.no-user .widget.widget-item-icon .widget-item-left, .widget.widget-item-icon .widget-item-right {
+    width: 70px;
+    padding: 20px 0px;
+    padding-right: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.no-user .widget.widget-item-icon .widget-item-left {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.no-user .widget .widget-item-left {
+    margin-left: 10px;
+    float: left;
+    width: 100px;
+}
+.widget.widget-item-icon .widget-data {
+    padding-left: 90px;
+}
+.no-user .widget .widget-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.no-user .widget .widget-int {
+    font-size: 2.1em;
+    line-height: 40px;
+    color: #333;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+.no-user .widget .widget-item-left .fa
+{
+    font-size: 50px;
+    color: #FF3C20;
+}
+
+/* ----------------..//end referal link ---------- */
+/* ---------------------..//end wallet page css ---------- */

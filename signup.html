@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META SECTION -->
+    <title>Calling Management</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- END META SECTION -->
+    <link rel="stylesheet" type="text/css" href="assets/loading-page/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/loading-page/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/theme-default.css">
+
+    <!-- EOF CSS INCLUDE -->
+</head>
+<body class="account-setup">
+<!-- ******HEADER****** -->
+<!--<header class="header">
+    <div class="container calling-signin">
+        <h1 class="logo">
+            <a href="home.html"><span class="logo-icon"><img src="assets/loading-page/img/itarsia-logo.png" class="img-responsive"></span></a>
+        </h1>&lt;!&ndash;//logo&ndash;&gt;
+
+    </div>&lt;!&ndash;//container&ndash;&gt;
+</header>&lt;!&ndash;//header&ndash;&gt;-->
+    <!-- ******Account setup Section****** -->
+    <section class="faq section has-bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
+                    <form role="form" id="account-setup" class="form-horizontals" method="post" action="">
+                        <input type="hidden" name="_token" value="FtBVEoVBNVF1cp5K7K59sEewm4h1K0Xlxc3evRNN">
+                        <div class="panel">
+                            <div class="logo">
+                                <a href="home.html"><span class="logo-icon"><img src="assets/loading-page/img/itarsia-logo.png" width="275px" class="img-responsive center"></span></a>
+                            </div><!--//logo-->
+                            <div class="panel-heading">
+                                <h2 class="title text-center">Signup To Calling Management System</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">First Name</label>
+                                            <input type="text" id="first_name" name="first_name" class="form-control text-capitalize" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Last Name</label>
+                                            <input type="text" id="last_name" name="last_name" class="form-control text-capitalize" placeholder="Last Name">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Mobile No.</label>
+                                            <input type="text" id="Mobile_No" name="Mobile_No" class="form-control text-capitalize" placeholder="Mobile No">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Email Id</label>
+                                            <input type="email" name="EmailId" class="form-control" placeholder="Email Id">
+                                        </div>
+                                    </div>
+
+                                </div><!-- ./end row -->
+                            </div>
+                            <div class="panel-footer clearfix" style="background: #fff;">
+                                <div class="form-group">
+                                    <div class="col-md-12 signupbtn">
+                                        <button type="submit" name="submit" onclick="window.location.href='login_otp.html';" class="btn btn-cta btn-cta-primary"><i class="fa fa-location-arrow"></i> Submit</button>
+
+                                        <div class="aleady-login">
+                                            <a href="login.html">Already a Member ?? Login here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- ./end panel -->
+                    </form>
+
+                </div>
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//faq-->
+
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="faq-footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="block-coppyright">
+                        <small class="copyright">© 2019 | Calling Management All Rights & Reserved. Powered By <a href="http://itarsia.com/" target="_blank">Itarsia India</a></small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 ">
+                    <div class="right-part">
+                        <div class="social">
+                            <a href="#" class="tip-top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Flickr"><i class="fa fa-flickr"></i></a>
+                            <a href="#" class="tip-top" title="" data-original-title="Github"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer><!--//footer-->
+
+
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/loading-page/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/loading-page/js/bootstrap.min.js"></script>
+
+<!-- ----------------------javascript ------------------ -->
+
+<script>
+    $(function(){
+       $('.btn-cta-primary').click(function(event){
+           event.preventDefault();
+          window.location.href='login_otp.html';
+       });
+    });
+</script>
+
+
+   </body>
+</html>
